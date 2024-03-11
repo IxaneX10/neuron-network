@@ -13,7 +13,7 @@ main {
 } 
 main .container {
     max-width: 1100px;
-    min-width: 500px;
+    min-width: 265px;
     margin: 0 auto;
     
 }
