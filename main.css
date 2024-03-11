@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    
+}
+main {
+    padding-top: 60px;
+    background-color: rgb(234, 228, 208);
+    min-height: 1350px;
+    
+    
+} 
+main .container {
+    max-width: 1100px;
+    min-width: 500px;
+    margin: 0 auto;
+    
+}
+
+main li {
+    margin: 0px 0px 16px 22px;
+}
+.heading {
+    display: block;
+
+    color: rgb(110, 68, 74);
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-size: 46px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    
+
+    padding-top: 5px;
+}
+.neuronet_img {
+    width: 600px;
+    height: auto;
+    padding-bottom: 15px;
+}
+.input_img {
+    width: 560px;
+    height: auto;
+    padding-bottom: 15px;
+}
+.text {
+    color: rgb(110, 68, 74);
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+}
+.text_end {
+    color: rgb(110, 68, 74);
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+
+    margin: 0px;
+    padding-bottom: 34px;
+}
+main a {
+    color: rgb(110, 68, 74);
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:italic;
+}
+.strong {
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
