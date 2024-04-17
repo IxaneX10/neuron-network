@@ -7,8 +7,7 @@
 main {
     padding-top: 60px;
     background-color: rgb(234, 228, 208);
-    min-height: 1350px;
-    
+    min-height: min-content;
     
 } 
 main .container {
@@ -36,7 +35,17 @@ main li {
     padding-top: 5px;
 }
 .neuronet_img {
-    width: 600px;
+    width: 700px;
+    height: auto;
+    padding-bottom: 15px;
+}
+.gpt_img {
+    width: 520px;
+    height: auto;
+    padding-bottom: 15px;
+}
+.mg_img {
+    width: 520px;
     height: auto;
     padding-bottom: 15px;
 }
@@ -44,6 +53,21 @@ main li {
     width: 560px;
     height: auto;
     padding-bottom: 15px;
+}
+.pope_img {
+    width: 500px;
+    height: auto;
+    padding-bottom: 15px;  
+}
+.Theatre_img {
+    width: 650px;
+    height: auto;
+    padding-bottom: 15px;   
+}
+.ya_gpt_img  {
+    width: 850px;
+    height: auto;
+    padding-bottom: 15px;  
 }
 .text {
     color: rgb(110, 68, 74);
@@ -79,4 +103,173 @@ main a {
 }
 .italic {
     font-style: italic;
+}
+/* MAIN */
+@media (max-width: 750px) {
+    .neuronet_img {
+        width: 530px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .input_img {
+        width: 440px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 570px) {
+    .neuronet_img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .input_img {
+        width: 360px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 440px) {
+    .neuronet_img {
+        width: 300px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .input_img {
+        width: 310px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .home {
+        left: 75px;
+        font-size: 24px;
+    }
+    .dropdown {
+        left: 160px;  
+        font-size: 24px;
+    }
+}
+/*  GPT */
+@media (max-width: 750px) {
+    .gpt_img {
+        width: 530px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 570px) {
+    .gpt_img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 440px) {
+    .gpt_img {
+        width: 300px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .home {
+        left: 75px;
+        font-size: 24px;
+    }
+    .dropdown {
+        left: 160px;  
+        font-size: 24px;
+    }
+}
+/* MG */
+@media (max-width: 750px) {
+    .mg_img {
+        width: 530px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .pope_img {
+        width: 440px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .Theatre_img {
+        width: 440px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 570px) {
+    .mg_img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .pope_img {
+        width: 360px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .Theatre_img {
+        width: 360px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 440px) {
+    .mg_img {
+        width: 300px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .pope_img {
+        width: 310px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .Theatre_img {
+        width: 310px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .home {
+        left: 75px;
+        font-size: 24px;
+    }
+    .dropdown {
+        left: 160px;  
+        font-size: 24px;
+    }
+}
+/* YANDEX */
+@media (max-width: 880px) {
+    .ya_gpt_img {
+        width: 530px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 570px) {
+    .ya_gpt_img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+}
+@media (max-width: 440px) {
+    .ya_gpt_img {
+        width: 300px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .home {
+        left: 75px;
+        font-size: 24px;
+    }
+    .dropdown {
+        left: 160px;  
+        font-size: 24px;
+    }
 }
